@@ -1,0 +1,22 @@
+
+-- AddressBook Service
+===========================================================
+-- UC1 Creating database as AddessBookService
+===========================================================
+
+ MySQL  localhost:3306 ssl  addressbookservice  SQL > show databases;
++--------------------+
+| Database           |
++--------------------+
+| addressbookservice |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| user               |
+| world              |
++--------------------+
+8 rows in set (0.0016 sec)
+mysql> use AddressBookService;
+Database changed
